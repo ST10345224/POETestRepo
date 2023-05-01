@@ -31,7 +31,7 @@ jobs:
      # Compiles classes to test 
       - name: compile classes
         working-directory: ./src
-        run: javac -cp "../testresources/junit-platform-console-standalone-1.6.0.jar" ./main/java/com/mycompany/kanbanboardpoe/KanbanBoardPOE.java .//main/java/com/mycompany/kanbanboardpoe/Login.java  "../test/java/com/mycompany/kanbanboardpoe/LoginTest.java" 
+        run: javac -cp "../testresources/junit-platform-console-standalone-1.6.0.jar" ./main/java/com/mycompany/kanbanboardpoe/KanbanBoardPOE.java .//main/java/com/mycompany/kanbanboardpoe/Login.java  "./test/java/com/mycompany/kanbanboardpoe/LoginTest.java" 
 
     # list contents of src to verify that classess compiled 
       - name: List contents of src directory after compile
