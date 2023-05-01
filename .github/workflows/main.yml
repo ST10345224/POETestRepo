@@ -41,20 +41,20 @@ jobs:
         
        # copy compiled classes to test directory 
       - name : copy compiled classes to testresources directory 
-        working-directory: ./src//main/java/com/mycompany/kanbanboardpoe
-        run: cp -t  "../../test/java/com/mycompany/kanbanboardpoe/" Login.class KanbanBoardPOE.class
+        working-directory: ./src/main/java/com/mycompany/kanbanboardpoe
+        run: cp -t  "./test/java/com/mycompany/kanbanboardpoe/" Login.class KanbanBoardPOE.class
         
         #copy compiled tests 
       - name : copy compiled Test classes to testresources directory 
-        working-directory: ./test//java/com/mycompany/kanbanboardpoe
+        working-directory: ./test/java/com/mycompany/kanbanboardpoe
         run: cp -t  "../../testresources/" Login.class KanbanBoardPOE.class 
         
         # list contents or directory
       - name: List contents test package
-        working-directory: ./test//java/com/mycompany/kanbanboardpoe
+        working-directory: ./test/java/com/mycompany/kanbanboardpoe
         run: ls
         
-        #run Message Class tests and output report 
+        #run Login Class tests and output report 
       - name: run Login Class tests and create report 
         working-directory: ./test
         run: |
