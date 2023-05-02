@@ -59,4 +59,4 @@ jobs:
         working-directory: ./src/test/java/com/mycompany/kanbanboardpoe
         run: |
          ls
-         java -jar  "../../../../../../testresources/junit-platform-console-standalone-1.6.0.jar" -cp "." --select-file LoginTest.class              
+         java -jar  "../../../../../../testresources/junit-platform-console-standalone-1.6.0.jar" -cp "." --select-class=LoginTest              
