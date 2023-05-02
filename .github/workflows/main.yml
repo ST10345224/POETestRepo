@@ -51,7 +51,7 @@ jobs:
         
         # list contents or directory
       - name: List contents test package
-        working-directory: ./src/test/java/com/mycompany/kanbanboardpoe
+        working-directory: ./testresources
         run: ls
         
         #run Login Class tests and output report 
