@@ -56,9 +56,9 @@ jobs:
         
         #run Login Class tests and output report 
       - name: run Login Class tests and create report 
-        working-directory: ./src/test/java/com/mycompany/kanbanboardpoe
+        working-directory: ./src/test/java/com/mycompany
         run: |
          ls
-         java -jar  "../../../../../../testresources/junit-platform-console-standalone-1.6.0.jar" -cp "." --select-class LoginTest 
+         java -jar  "../../../../../testresources/junit-platform-console-standalone-1.6.0.jar" -cp "." --select-class kanbanboardpoe.LoginTest 
          
          
