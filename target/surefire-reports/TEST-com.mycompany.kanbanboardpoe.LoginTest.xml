@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.kanbanboardpoe.LoginTest" time="0.023" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.kanbanboardpoe.LoginTest" time="0.01" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="ZA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\Kev\AppData\Local\Temp\surefire5174167918421673551\surefirebooter17990149891262629342.jar C:\Users\Kev\AppData\Local\Temp\surefire5174167918421673551 2023-05-01T23-59-08_668-jvmRun1 surefire12874058587877590129tmp surefire_04125360393082660684tmp"/>
+    <property name="sun.java.command" value="C:\Users\Kev\AppData\Local\Temp\surefire12180152403722381424\surefirebooter7850582093501850550.jar C:\Users\Kev\AppData\Local\Temp\surefire12180152403722381424 2023-05-02T03-25-14_544-jvmRun1 surefire12056588865008584618tmp surefire_018002618303162549783tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="com.mycompany.kanbanboardpoe.LoginTest"/>
     <property name="surefire.test.class.path" value="C:\Users\Kev\Documents\NetBeansProjects\KanbanBoardPOE\target\test-classes;C:\Users\Kev\Documents\NetBeansProjects\KanbanBoardPOE\target\classes;C:\Users\Kev\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Kev\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Kev\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Kev\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Kev\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Kev\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Kev\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Kev\AppData\Local\Temp\surefire5174167918421673551\surefirebooter17990149891262629342.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kev\AppData\Local\Temp\surefire12180152403722381424\surefirebooter7850582093501850550.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.1+10-21"/>
@@ -60,9 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="testReturnLoginStatus" classname="com.mycompany.kanbanboardpoe.LoginTest" time="0.017"/>
-  <testcase name="testLoginUser" classname="com.mycompany.kanbanboardpoe.LoginTest" time="0.001"/>
-  <testcase name="testRegisterUser" classname="com.mycompany.kanbanboardpoe.LoginTest" time="0.001"/>
+  <testcase name="testReturnLoginStatus" classname="com.mycompany.kanbanboardpoe.LoginTest" time="0.007"/>
+  <testcase name="testLoginUser" classname="com.mycompany.kanbanboardpoe.LoginTest" time="0"/>
+  <testcase name="testRegisterUser" classname="com.mycompany.kanbanboardpoe.LoginTest" time="0"/>
   <testcase name="testCheckPasswordComplexity" classname="com.mycompany.kanbanboardpoe.LoginTest" time="0"/>
   <testcase name="testCheckUserName" classname="com.mycompany.kanbanboardpoe.LoginTest" time="0"/>
 </testsuite>
