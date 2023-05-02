@@ -19,7 +19,7 @@ public class LoginTest {
     /**
      * Test of checkUserName method, of class Login.
      */
-    @org.junit.jupiter.api.Test
+    @Test
     public void testCheckUserName() {
         //Test valid username
         Login instance1 = new Login("kyl_1", "P@ssw0rd");
@@ -33,7 +33,7 @@ public class LoginTest {
     /**
      * Test of checkPasswordComplexity method, of class Login.
      */
-    @org.junit.jupiter.api.Test
+    @Test
     public void testCheckPasswordComplexity() {
         // Test valid password
         Login instance1 = new Login("kyl_1", "Ch&&sec@ke99!");
@@ -47,7 +47,7 @@ public class LoginTest {
     /**
      * Test of registerUser method, of class Login.
      */
-    @org.junit.jupiter.api.Test
+    @Test
     public void testRegisterUser() {
         //Test valid registration
         Login instance1 = new Login("kyl_1", "Ch&&sec@ke99!");
@@ -68,7 +68,7 @@ public class LoginTest {
     /**
      * Test of loginUser method, of class Login.
      */
-    @org.junit.jupiter.api.Test
+    @Test
     public void testLoginUser() {
         //Test successful login
         Login instance1 = new Login("kyl_1", "Ch&&sec@ke99!");
@@ -86,7 +86,7 @@ public class LoginTest {
     /**
      * Test of returnLoginStatus method, of class Login.
      */
-    @org.junit.jupiter.api.Test
+    @Test
     public void testReturnLoginStatus() {
         //Test successful login
         Login instance1 = new Login("kyl_1", "Ch&&sec@ke99!");
