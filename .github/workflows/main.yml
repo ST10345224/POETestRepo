@@ -56,7 +56,7 @@ jobs:
         
         #run Login Class tests and output report 
       - name: run Login Class tests and create report 
-        working-directory: ./test
+        working-directory: ./src/test
         run: |
          ls
          java -jar  "../testresources/junit-jupiter-api-5.6.0.jar" -cp "." --select-class  kanbanboardpoe.LoginTest  
